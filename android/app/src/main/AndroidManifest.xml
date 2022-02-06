@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hiu">
+    package="com.softkru.hiu">
+   
    <application
         android:label="hiu"
         android:icon="@mipmap/ic_launcher">

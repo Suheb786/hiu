@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1012479517872",
+    "project_id": "hiu-226c7",
+    "storage_bucket": "hiu-226c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012479517872:android:9df12aba1d59b34c95c775",
+        "android_client_info": {
+          "package_name": "com.softkru.hiu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012479517872-b2qlba2n22ls32ls8sokvvblhlf5ht1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiO8GNzoanrl0uWwgTMKTHy7PD713UVTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012479517872-b2qlba2n22ls32ls8sokvvblhlf5ht1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

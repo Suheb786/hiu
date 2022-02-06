@@ -1,4 +1,4 @@
-package com.example.hiu
+package com.softkru.hiu
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -54,7 +54,7 @@ class AuthClass {
           MaterialPageRoute(builder: (builder) => RegistrationScreen()),
           (route) => false);
 
-      showSnacBar(context, "Loggen In");
+      showSnacBar(context, "You are Verified for Registration");
     } catch (e) {
       showSnacBar(context, e.toString());
     }

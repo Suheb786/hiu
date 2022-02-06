@@ -1,12 +1,10 @@
-import 'dart:ffi';
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/gestures.dart';
+
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+
 import 'package:hiu/decoration/input_decoration.dart';
 import 'package:hiu/screens/phoneauthScreen.dart';
-import 'package:hiu/screens/registration_screen.dart';
+
 import 'package:hiu/widgets/buttons.dart';
 import 'package:hiu/widgets/glassContainer.dart';
 
@@ -193,7 +191,11 @@ class _LoginScreenState extends State<LoginScreen> {
               child: TextFormField(
                 validator: (_val) {
                   if (_val!.isEmpty) {
-                    return "Please Enter Password";
+                    // return "Please Enter Password";
+                    //?-->>>TODO--?//
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Password can't be Empty")));
+                    //?-->>>TODO--?//
                   } else if (_val
                           .replaceAll(RegExp(r"\s+"),
                               "") //replaceAll(RegExp(r"\s+") to do not count space

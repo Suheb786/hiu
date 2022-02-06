@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
 
 InputDecoration inptdecrtn({required String hinttext}) {
   return InputDecoration(

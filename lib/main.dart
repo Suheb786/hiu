@@ -6,6 +6,7 @@ import 'package:hiu/screens/loginscreen.dart';
 import 'package:hiu/screens/payment_controller.dart';
 import 'package:hiu/screens/phoneauthScreen.dart';
 import 'package:hiu/screens/registration_screen.dart';
+import 'package:hiu/screens/temp.dart';
 
 import 'package:hiu/services/phoneAuth_Services.dart';
 
@@ -47,6 +48,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       initialRoute: "/",
       routes: {
+        // "temp": (ctx) => Temp(),
         "/": (ctx) => LandingScreen(),
         "lgn": (ctx) => LoginScreen(),
         "phn": (ctx) => PhoneAuthScreen(),

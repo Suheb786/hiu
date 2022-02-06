@@ -1,6 +1,6 @@
 # hiu
 
-A new Flutter project.
+A Data Entry app with intigrating RazorPay
 
 ## Getting Started
 

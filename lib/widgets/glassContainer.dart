@@ -11,16 +11,16 @@ class FrostedGlass extends StatelessWidget {
   final Gradient borderColor;
   final double brdwdth;
 
-  const FrostedGlass(
-      {Key? key,
-      required this.brdwdth,
-      required this.isFrostedGlass,
-      required this.height,
-      required this.width,
-      required this.baccha,
-      required this.borderColor,
-      required this.glassColor})
-      : super(key: key);
+  const FrostedGlass({
+    Key? key,
+    required this.brdwdth,
+    required this.isFrostedGlass,
+    required this.height,
+    required this.width,
+    required this.baccha,
+    required this.borderColor,
+    required this.glassColor,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

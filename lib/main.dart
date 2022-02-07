@@ -48,7 +48,6 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       initialRoute: "/",
       routes: {
-        // "temp": (ctx) => Temp(),
         "/": (ctx) => LandingScreen(),
         "lgn": (ctx) => LoginScreen(),
         "phn": (ctx) => PhoneAuthScreen(),

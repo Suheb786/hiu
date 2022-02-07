@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -82,4 +83,24 @@ class Yellowbutton extends StatelessWidget {
       ),
     );
   }
+
+// Widget buildDatePicker() {
+//     return Center(
+//       child: SizedBox(
+//         height: 180,
+//         child: CupertinoDatePicker(
+//           initialDateTime: dateTime,
+//           minimumYear: 1940,
+//           maximumYear: DateTime.now().year,
+//           onDateTimeChanged: (dateTime) {
+//             setState(() {
+//               this.dateTime = dateTime;
+//             });
+//           },
+//           mode: CupertinoDatePickerMode.date,
+//         ),
+//       ),
+//     );
+//   }
+
 }

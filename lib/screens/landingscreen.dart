@@ -56,10 +56,10 @@ class LandingScreen extends StatelessWidget {
                       brdwdth: 2,
                       borderColor: LinearGradient(
                         colors: [
-                          Colors.white.withOpacity(0.60),
+                          Colors.white.withOpacity(0.40),
                           Colors.white.withOpacity(0.10),
                           Colors.white.withOpacity(0.05),
-                          Colors.white.withOpacity(0.09)
+                          Colors.white.withOpacity(0.1)
                         ],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
@@ -67,14 +67,14 @@ class LandingScreen extends StatelessWidget {
                       ),
                       glassColor: LinearGradient(
                         colors: [
-                          Colors.white.withOpacity(0.25),
-                          Colors.white.withOpacity(0.10)
+                          Color(0x4Dffffff).withOpacity(0.16),
+                          Color(0x33ffffff).withOpacity(0.08)
                         ],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
                       height: 222,
-                      width: 222,
+                      width: 261,
                       isFrostedGlass: false,
                       baccha: BackdropFilter(
                         filter: ImageFilter.blur(sigmaX: 0.8, sigmaY: 0.9),

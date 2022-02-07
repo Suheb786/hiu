@@ -28,7 +28,7 @@ class _PaymentControlState extends State<PaymentControl> {
     _razorpay.clear();
   }
 
-  void openCheckout() {
+  openCheckout() {
     var option = {
       'key': 'rzp_test_moG7BkvICzm1ZR',
       'amount': 1500 * 100, //in the smallest currency sub-unit.
